@@ -1,0 +1,160 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TypeScriptHTMLApp1</RootNamespace>
+    <AssemblyName>TypeScriptHTMLApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Assets\Sounds\New TekaTeki.ogg" />
+    <Content Include="Assets\Sounds\Destroy.ogg" />
+    <Content Include="Assets\Sounds\In.ogg" />
+    <Content Include="Assets\Sounds\Out.ogg" />
+    <Content Include="Assets\Sounds\Reset.ogg" />
+    <Content Include="Assets\Sounds\Switch.ogg" />
+    <Content Include="Assets\Sounds\Over.ogg" />
+    <Content Include="Assets\Sounds\Complete.ogg" />
+    <Content Include="Assets\Sounds\Half Complete.ogg" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="Assets\Sprites\Background Main.png" />
+    <Content Include="Assets\Sprites\Button No.png" />
+    <Content Include="Assets\Sprites\Button Play.png" />
+    <Content Include="Assets\Sprites\Button Quit.png" />
+    <Content Include="Assets\Sprites\Button Rank.png" />
+    <Content Include="Assets\Sprites\Button Rules.png" />
+    <Content Include="Assets\Sprites\Dialog Game Over.png" />
+    <Content Include="Assets\Sprites\Dialog Quit.png" />
+    <Content Include="Assets\Sprites\Dialog Rank.png" />
+    <Content Include="Assets\Sprites\Dialog Rules.png" />
+    <Content Include="Assets\Sprites\Icon.png" />
+    <Content Include="Assets\Sprites\Letter A.png" />
+    <Content Include="Assets\Sprites\Letter Complete.png" />
+    <Content Include="Assets\Sprites\Letter E.png" />
+    <Content Include="Assets\Sprites\Letter I.png" />
+    <Content Include="Assets\Sprites\Letter K.png" />
+    <Content Include="Assets\Sprites\Letter T.png" />
+    <Content Include="Assets\Sprites\Node Blue.png" />
+    <Content Include="Assets\Sprites\Node Green.png" />
+    <Content Include="Assets\Sprites\Node Indicator.png" />
+    <Content Include="Assets\Sprites\NSTL.png" />
+    <Content Include="Assets\Sprites\NSTR.png" />
+    <Content Include="Assets\Sprites\NSBL.png" />
+    <Content Include="Assets\Sprites\NSBR.png" />
+    <Content Include="Assets\Sprites\NSL.png" />
+    <Content Include="Assets\Sprites\NSU.png" />
+    <Content Include="Assets\Sprites\NSR.png" />
+    <Content Include="Assets\Sprites\NSD.png" />
+    <Content Include="Assets\Sprites\NSC.png" />
+    <Content Include="Assets\Sprites\Node Yellow.png" />
+    <Content Include="Assets\Sprites\Splash.png" />
+    <Content Include="Assets\Sprites\The Banner Bottom.png" />
+    <Content Include="Assets\Sprites\The Banner Top.png" />
+    <Content Include="Assets\Sprites\The Board.png" />
+    <Content Include="Assets\Sprites\The Border Left.png" />
+    <Content Include="Assets\Sprites\The Border Right.png" />
+    <Content Include="Assets\Sprites\The Overlay.png" />
+    <Content Include="Assets\Sprites\Timeout Base.png" />
+    <Content Include="Assets\Sprites\Timeout Fill.png" />
+    <Content Include="index.html" />
+    <Content Include="phaser.js" />
+    <Content Include="phaser.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="fbinstant.6.2.d.ts" />
+    <TypeScriptCompile Include="p2.d.ts" />
+    <TypeScriptCompile Include="phaser.d.ts" />
+    <TypeScriptCompile Include="pixi.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10202</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10202/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,6 @@
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\bin\TypeScriptHTMLApp1.dll
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\bin\TypeScriptHTMLApp1.pdb
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\obj\Release\TekaTeki.csprojResolveAssemblyReference.cache
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\obj\Release\TekaTeki.csproj.CoreCompileInputs.cache
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\obj\Release\TypeScriptHTMLApp1.dll
+D:\Duty\Master 2\Facebook Instant Games\TekaTeki\TekaTeki\obj\Release\TypeScriptHTMLApp1.pdb
